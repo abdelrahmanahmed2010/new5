@@ -1,0 +1,195 @@
+.head{
+    
+    background-image: url(../landing.jpg);
+    background-position: center center;
+    height: 100vh;
+    
+}
+
+.head .containar{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.head .container .caption-landing{
+    
+    text-align: center;
+    padding: 10px;
+    
+}
+h1{
+    
+    color: aqua;
+    text-align: center;
+}
+
+
+.Services .h2{
+    
+    font-size: 100px;
+    
+    
+}
+
+
+
+@media screen and (min-width :1200px) {
+    .head{
+
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen  and (max-width :1199px) and (min-width :992px){
+ 
+        .head{
+width: 75%;
+
+
+        }
+}
+@media screen and (max-width :991px) and (min-width :772px) {
+    .head{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+.second{
+     
+}
+.second .container{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.second .container .item{
+     
+     width: 30%;
+    text-align: center;
+}
+.second .container .item i{
+    font-size: 50px;
+    color: aqua;
+    padding: 20px 0px;
+}
+.second .container .item p{
+     
+    width: 75%;
+    margin: auto;
+}
+.second .container .item h3{
+    
+    font-size: 21px;
+}
+
+
+
+@media screen  and (max-width :1199px) and (min-width :992px){
+ 
+     .second .container .item{
+width: 50%;
+         background-color: blue;
+
+
+        }
+}
+@media screen and (max-width :991px)  {
+    .second .container .item{
+        width: 100%;
+        
+    }
+}
+
+
+
+.Special-item{
+    
+    width: 100%;
+    text-align: center;
+   
+    
+}
+
+.Special-item h2{
+    
+    font-weight: 800;
+    font-size: 100px;
+    color: #ebeced;
+    letter-spacing: -2px;
+    font-family: "work Sans", sans-serif;
+     
+}
+
+
+Special-item p{
+    
+    color: #797979;
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.servies{
+    
+}
+
+.servies .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servies .container.item-servies{
+    width: 30%;
+    
+    
+}
+
+@media (max-width: 760px)
+.Services  {
+    font-size: 70px;
+}
+
+.item-servies-child{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon-servies{
+    
+}
+
+.icon-servies i{
+    font-size: 35px;
+    color: #10cab7;
+}
+
+.contant-servies{
+padding-left: 20px;    
+}
+
+.contant-servies h3{
+    font-size: 20px;
+}
+
+.contant-servies p{
+    font-weight: 300;
+    color: reg(80,78,78);
+    line-height: 1.6rem;
+    font-size: 20px;
+}
+
+@media (max-width: 760px)
+.Services  {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
